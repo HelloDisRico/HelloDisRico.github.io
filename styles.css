@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+/* Start of Header*/
+.header {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* General Stuff */
+.flex {
+    display: flex
+}
+
+.row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gapCustom {
+    gap: 65px;
+}
+
+.gapCustom1 {
+    gap: 35px;
+}
+
+.gap1 {
+    gap: 50px
+}
+
+
+.gap2 {
+    gap: 25px
+}
+
+.gap3 {
+    gap: 10px
+}
+
+.gap4 {
+    gap: 5px
+}
+
+.columns {
+    flex-direction: column
+}
