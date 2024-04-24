@@ -3,11 +3,29 @@ body {
     padding: auto;
 }
 
+/*  
+Color Palette
+#273043 Prussian blue
+#9197AE Cool Gray
+#F3F8F2 Mint Cream
+#F02D3A Imperial Red
+#DD0426 Rojo
+*/
 /* Start of Header*/
 .header {
-    background-color: blue;
+    background-color: #273043;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    color: #F3F8F2;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.headerTitle {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 /* General Stuff */
@@ -36,7 +54,7 @@ body {
 }
 
 .gapCustom {
-    gap: 65px;
+    gap: 60px;
 }
 
 .gapCustom1 {
@@ -62,4 +80,17 @@ body {
 
 .columns {
     flex-direction: column
+}
+
+/* Font Sizes*/
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.large {
+    font-size: large;
 }
